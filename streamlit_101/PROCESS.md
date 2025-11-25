@@ -12,12 +12,12 @@
 
 ### What I Knew Before Starting
 > Before this assignment, my understanding of Streamlit was:
-> - [Describe any prior knowledge, or "None - this is completely new"]
+> - I have done some Streamlit in my Python class, but it has been a while and I don't remember much ot it.
 
 ### First Impressions
 > After reading the assignment and doing initial research:
-> - [What seemed straightforward?]
-> - [What seemed confusing or challenging?]
+> - From the last time I vibe-coded, the prompting and iteration seemed to be hit or miss when it comes to functionality, but there were results that worked.
+> - Learning a new library can be pretty difficult, espesialy for me.
 
 ---
 
@@ -29,11 +29,11 @@ Document at least 4-5 significant prompts you used. Show iteration where you ref
 
 **Initial Prompt:**
 ```
-[Paste your actual prompt here]
+[I'm a Flask developer learning Streamlit. Explain the key differences in how these frameworks work. Specifically: 1. How does Streamlit handle user interactions vs Flask's routes? 2. What happens when a user clicks a button in Streamlit? 3. Why do I need st.session_state when I didn't need anything special for variables in Flask?]
 ```
 
 **Key Insights from Response:**
-> [What did you learn? What clicked?]
+> [A lot of it was simmiler to what we learned in class, Flask being a Request/response model and requires HTML knowledge. While Sreamlit is mostly Python providing both its functionality and UI.]
 
 **Follow-up Prompt (if any):**
 ```
