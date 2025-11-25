@@ -1,8 +1,8 @@
 # Learning Process Documentation
 ## Citizen Wellness Portal™ - PROCESS.md
 
-**Citizen Name:** [Your Name]  
-**Date Started:** [Date]  
+**Citizen Name:** Joshua Eckman  
+**Date Started:** 11/25/25
 **Date Completed:** [Date]  
 **Total Time Spent:** [X hours]
 
