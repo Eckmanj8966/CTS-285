@@ -49,11 +49,15 @@ Document at least 4-5 significant prompts you used. Show iteration where you ref
 
 **Initial Prompt:**
 ```
-[Paste your actual prompt here]
+[Show me how st.session_state works in Streamlit. I need to:
+1. Store whether a user is logged in (boolean)
+2. Store the logged-in username (string)
+3. Make these persist when the user clicks buttons or interacts with the app Include a minimal example.]
 ```
 
 **Key Insights from Response:**
-> [What did you learn?]
+> [Session state keys must be initalized first if you intend for them to persist between reruns, ChatGPT also
+> recomends using if statments to ensure the key exists before creating them to avoid something called a KeyError.]
 
 **Follow-up Prompt (if any):**
 ```
