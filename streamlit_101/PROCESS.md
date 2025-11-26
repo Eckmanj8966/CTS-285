@@ -73,14 +73,21 @@ Document at least 4-5 significant prompts you used. Show iteration where you ref
 
 **Initial Prompt:**
 ```
-[Paste your actual prompt here]
+[I'm building a Streamlit app with login/registration. I want to store 
+users in st.session_state as a dictionary. Show me how to:
+1. Initialize the users dict if it doesn't exist
+2. Add a new user during registration
+3. Check credentials during login
+4. Handle errors (user already exists, wrong password, etc.)]
 ```
 
 **Key Insights from Response:**
-> [What did you learn?]
+> [The result was that it did more then I indended, as it created a tab based menu containing a
+> Login menu, Registration menu, and a Debug menu. The Debug menu contains the user profiles created
+> during the runtime of the program.]
 
 **What Worked vs. What I Had to Modify:**
-> [Did the LLM-generated code work immediately? What did you have to change?]
+> [The code worked and did more than I prompted for it to do. \[See above\]]
 
 ---
 
