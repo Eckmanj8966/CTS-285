@@ -94,7 +94,8 @@ users in st.session_state as a dictionary. Show me how to:
 ### Prompt 4: [Topic - e.g., "Debugging an Issue"]
 
 **The Problem I Was Facing:**
-> [Describe what wasn't working]
+> [As far I a am awware, there ar not many problems, or at least the problems that are present have
+> been adressed in previous iterations.]
 
 **Prompt I Used:**
 ```
@@ -122,34 +123,36 @@ users in st.session_state as a dictionary. Show me how to:
 
 Document at least 2-3 significant challenges you faced.
 
-### Challenge 1: [Brief Title]
+### Challenge 1: [Double Click Buttons]
 
 **What Happened:**
-> [Describe the problem in detail]
+> [For some reson you had to press the buttons twice for them to work.]
 
 **What I Tried That Didn't Work:**
 > [List approaches that failed - this is valuable!]
-> - Attempt 1: ...
+> - Attempt 1: I asked my AI of choice to fix it, though it didn't seems
+> - to solve the problem and just messed up the layout of the application.
 > - Attempt 2: ...
 
 **What Finally Worked:**
-> [The solution]
+> [I decited to revert to the original program before it attempted to "fix" the problem.]
 
 **What I Learned:**
-> [The insight you gained]
+> [Not every prompt will solve the problem you asked it to fix.]
 
 ---
 
-### Challenge 2: [Brief Title]
+### Challenge 2: [Above and Behond]
 
 **What Happened:**
-> [Description]
+> [Though it wasn't exactly a challenge, the AI did seem to do more than it was asked,
+> resulting in me having to skip steps and reorienting in the step I was on.]
 
 **What I Tried:**
-> [Approaches]
+> [There wasn't much for me to do unless I asked it specifically to avoid doing more than asked.]
 
 **Resolution:**
-> [What worked]
+> [I decided to go along with it and do what I could to finish the assignment.]
 
 **Lesson Learned:**
 > [Insight]
@@ -170,16 +173,17 @@ Document at least 2-3 significant challenges you faced.
 
 ### Similarities I Noticed
 > [What felt familiar coming from Flask?]
-> - ...
+> - Aside from using a command to start the program I am not really sure.
 > - ...
 
 ### Key Differences
 > [What's fundamentally different?]
-> - ...
-> - ...
+> - Definitely the amout of HTML used
+> - Also I seemed to understand the Streamlit functions a lot more.
 
 ### What Surprised Me Most
-> [The thing that was most unexpected]
+> [I was caught offguard when it programed more than I asked for it to do.
+> \(Sorry I keep mentioning this\)]
 
 ### When I'd Choose Streamlit Over Flask
 > [Based on your experience, when would each be better?]
@@ -191,34 +195,35 @@ Document at least 2-3 significant challenges you faced.
 ## Part 5: Reflection
 
 ### What I'd Do Differently Next Time
-> [If you started over, what would you change about your approach?]
+> [I would ask the AI for more specific outputs rather than accept the ones
+> that do more than I asked for.]
 
 ### Most Valuable Thing I Learned
-> [Beyond just Streamlit - what skill or insight was most valuable?]
+> [Having defind expectation for what you want from you functions can help ensure smooth development.]
 
 ### Questions I Still Have
-> [Anything you're still unclear on?]
+> [None that I can think of.]
 
 ### Self-Assessment of Learning Process
 > Rate yourself (1-5) on each:
-> - Prompt quality/iteration: [ ] / 5
-> - Persistence when stuck: [ ] / 5
-> - Documentation thoroughness: [ ] / 5
-> - Understanding vs. copying: [ ] / 5
+> - Prompt quality/iteration: [3] / 5
+> - Persistence when stuck: [4] / 5
+> - Documentation thoroughness: [2] / 5
+> - Understanding vs. copying: [3] / 5
 
 ---
 
 ## Part 6: Resources Used
 
 ### AI Tools
-- [Which LLM(s) did you use?]
-- [Approximately how many conversations/prompts?]
+- [ChatGPT]
+- [4-5]
 
 ### Documentation Referenced
 - [List any official docs, Stack Overflow, tutorials, etc.]
 
 ### Help from Others
-- [Did you get help from classmates, instructors, forums? Credit them.]
+- [Mr. Norris]
 
 ---
 
