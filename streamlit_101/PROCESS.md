@@ -2,9 +2,9 @@
 ## Citizen Wellness Portal™ - PROCESS.md
 
 **Citizen Name:** Joshua Eckman  
-**Date Started:** 11/25/25  
-**Date Completed:** [Date]  
-**Total Time Spent:** [X hours]
+**Date Started:** [11/25/25]  
+**Date Completed:** [12/1/2025]  
+**Total Time Spent:** [? hours]
 
 ---
 
