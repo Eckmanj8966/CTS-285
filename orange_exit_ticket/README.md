@@ -15,3 +15,8 @@ source venv/bin/activate
 pip install streamlit
 pip freeze -r requirements.txt
 ```
+
+# Run Game
+```bash
+streamlit run duel.py
+```
