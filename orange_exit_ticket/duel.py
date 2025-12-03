@@ -20,7 +20,7 @@ if "game_over" not in st.session_state:
 if "selected_attack" not in st.session_state:
     st.session_state.selected_attack = None
 
-# Hint system state
+# HINT SYSTEM
 if "enemy_hint" not in st.session_state:
     st.session_state.enemy_hint = ""
 if "real_enemy_choice" not in st.session_state:
@@ -86,6 +86,7 @@ def generate_enemy_choice_and_hint():
 # ----------------------------
 st.title("⚔️ Duel")
 
+# Restored original-style instructions
 with st.expander("📘 How to Play"):
     st.write("""
 **Welcome to Duel!**
@@ -109,12 +110,17 @@ This game works like **Rock–Paper–Scissors**, but with weapon attacks:
     """)
 
 # ----------------------------
-# Health Bars
+# Health Bars (with clamping)
 # ----------------------------
+
+# Prevent negative values BEFORE rendering
+st.session_state.player_health = max(0, st.session_state.player_health)
+st.session_state.enemy_health = max(0, st.session_state.enemy_health)
+
 st.write(f"**Your Health:** {st.session_state.player_health}/50")
 st.progress(st.session_state.player_health / 50)
 
-st.write(f"**Enemy ({st.session_state.enemy_name}) Health:** {st.session_state.enemy_health}/50")
+st.write(f"**{st.session_state.enemy_name} Health:** {st.session_state.enemy_health}/50")
 st.progress(st.session_state.enemy_health / 50)
 
 st.divider()
@@ -135,7 +141,7 @@ if st.session_state.game_over:
     st.stop()
 
 # ----------------------------
-# Generate Hint
+# Generate Hint Once Per Round
 # ----------------------------
 if not st.session_state.hint_generated:
     generate_enemy_choice_and_hint()
@@ -182,16 +188,16 @@ if st.button("Confirm Attack"):
             f"You took **{dmg} damage**."
         )
 
+    # Win/Lose check
     if st.session_state.player_health <= 0 or st.session_state.enemy_health <= 0:
         st.session_state.game_over = True
 
+    # Prepare next round
     st.session_state.selected_attack = None
     st.session_state.hint_generated = False
 
     st.rerun()
 
-# ----------------------------
-# Round Result Message
-# ----------------------------
+# Round result message
 if st.session_state.round_result:
     st.info(st.session_state.round_result)
