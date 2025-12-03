@@ -6,7 +6,7 @@ The first to zero health loses.
 # Setup
 ```bash
 cd orange_exit_ticket
-python3 -m venv venv _skip if it's already there_
+python3 -m venv venv // skip if it's already there
 source venv/bin/activate
 pip install -r requirements.txt
 ```
